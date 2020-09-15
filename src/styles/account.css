@@ -1,0 +1,62 @@
+/* .profile_panel{
+    padding-left: 7vw;
+    padding-right: 10vw;
+    display: block;
+    position: relative;
+    float: left;
+    color: white; 
+    font-weight: bold;
+    z-index: 1;
+    width: 10%;
+    background: rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+
+.profile_panel::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.7;
+    background: url('https://i.imgur.com/xfBTVIQ.jpg');
+    background: rgba(12,0,0,0.6);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+} */
+
+.inputfield{
+    border: none;
+    outline: none;
+    transition: 0.25s;
+    border-bottom: 2px solid white;
+    width: 10vw;
+}
+
+.inputfield:not(:placeholder-shown){
+    color: #8fdd3c;
+    border-color: #8fdd3c;
+}
+
+.submitButton {
+    outline: none !important;
+    margin-top: 30px;
+    color: #222!important;
+    font-weight: bold;
+    background-image: linear-gradient(to right,#fff 50%,#8fdd3c 60%,#44c0ff 100%)!important;
+    background-size: 300% 200%!important;
+    background-position: -1px 0;
+    transition: background-position .3s;
+    border: none!important;
+    border-radius: 50px;
+    padding: 10px 42px;
+    text-transform: uppercase;
+    width: 10vw;
+  }
+  
+  .submitButton:hover {
+      background-position: 95% 0 !important;
+      cursor: pointer;
+  }
